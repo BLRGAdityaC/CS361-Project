@@ -8,6 +8,7 @@ How to Request Data:
 Simply run my microservice and connect to the server it creates at PORT 1080 of localhost.
 Send a string of items delimited by spaces (this can be subject to change if inconvenient).
 The first word of the string must be a keword that tells the serice what to do.
+
 If you want to request data from a file:
   - Send the string "GET {filename}" to the server
   - Must be a file that exists
